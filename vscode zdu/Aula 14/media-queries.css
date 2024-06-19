@@ -1,0 +1,31 @@
+/* Smartphones (600px para baixo)*/
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: rgb(248, 85, 167);
+    }
+}
+
+/* Pequenos Tablets e Smartphones um pouco mais largos (600px pra cima)*/
+
+@media only screen and (min-width:600px) {
+    body {
+        background-color: rgb(83, 214, 83);
+    }
+}
+
+/* Tablet deitado 768px pra cima*/
+
+@media only screen and (min-width:768px) {
+    body {
+        background-color: rgb(70, 122, 122);
+    }
+}
+
+/* Telas largas (laptops, desktops, TVS, 1200px para cima)*/
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: goldenrod;
+    }
+}

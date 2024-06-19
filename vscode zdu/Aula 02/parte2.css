@@ -1,0 +1,42 @@
+
+
+.titulop {
+    margin-bottom: 4rem;
+    text-align: justify;
+}
+
+.atum {
+    border: 1px gray solid;
+    width: 850px;
+    margin: auto;
+}
+
+.atum-2 {
+    margin: 5rem;
+}
+
+.segundo-titulo {
+    color: rgb(97, 97, 97);
+    margin-bottom: 4rem;
+}
+
+p {
+    margin-bottom: 3rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    list-style-type: none;
+}
+
+.retirado {
+    margin-bottom: 0rem;
+}
+
+a {
+    color: rgb(56, 94, 219);
+}
+
+ul {
+    margin-bottom: 3rem;
+}

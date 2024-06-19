@@ -1,0 +1,45 @@
+ul {
+    background-color: turquoise;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a, .botao-drop {
+    text-decoration: none;
+    display: inline-block;
+    color: darkmagenta;
+    padding: 14px 16px;
+    font-weight: bold;
+}
+
+li a:hover, .dropdown:hover .botao-drop {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+li .dropdown {
+    display: inline-block; 
+}
+
+.conteudo-drop a {
+    display: block;
+    border: 1px black solid;
+    color: blueviolet;
+}
+
+.conteudo-drop {
+    position: absolute; 
+    background-color: aquamarine;
+    display: none;
+    width: 150px;
+}
+
+.dropdown:hover .conteudo-drop {
+    display: block;
+} 

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body style="margin: 20px;">
+    <h1>Formulário</h1>
+
+    <form>
+
+        <section class="formulario">
+
+            <label for="nome">Nome</label>
+            <br>
+            <input type="text" placeholder="Digite seu nome" id="nome">
+
+            <br><br>
+
+            <label for="password">Senha</label>
+            <br>
+            <input type="password" id="password" placeholder="Digite sua senha">
+
+            <br><br>
+
+            <label for="email">Email</label>
+            <br>
+            <input type="email" placeholder="Digite seu email" id="email">
+
+        </section>
+
+        <section class="genero_musical">
+
+            <h2>Qual gênero musical você gosta?</h2>
+
+            <input type="radio" name="genero" value="Rock" id="rock">
+            <label for="rock">Rock</label>
+
+            <br><br>
+
+            <input type="radio" name="genero" value="Pop" id="pop">
+            <label for="pop">Pop</label>
+
+            <br><br>
+
+            <input type="radio" name="genero" value="trap" id="trap">
+            <label for="trap">Trap</label>
+
+        </section>
+
+
+        <section class="genero_filme">
+
+            <h3>Quais gêneros de filme você gosta?</h3>
+
+            <input type="checkbox" name="item1" value="Acao">
+            <label for="">Ação</label>
+
+            <br><br>
+
+            <input type="checkbox" name="item2" id="Terror">
+            <label for="">Terror</label>
+
+            <br><br>
+
+            <input type="checkbox" name="item3" id="Comedia">
+            <label for="">Comédia</label>
+
+        </section>
+
+        <section class="escolha_cor">
+            <h4>Escolha uma cor</h4>
+
+            <select>
+                <option disabled selected>Selecione uma cor</option>
+                <option>Amarelo</option>
+                <option>Azul</option>
+                <option>Vermelho</option>
+                <option>Verde</option>
+                <option>Cinza</option>
+            </select>
+        </section>
+
+        <video src=""></video>
+
+        <section class="escreva_mensagem">
+
+            <h5>Escreva sua mensagem</h5>
+
+            <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+
+        </section>
+
+        <br><br>
+
+        <input type="submit" value="Confirmar">
+    </form>
+</body>
+
+</html>

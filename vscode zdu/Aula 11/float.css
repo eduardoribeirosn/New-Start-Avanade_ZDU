@@ -1,0 +1,12 @@
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: darkturquoise;
+    margin: 10px;
+    float: left;
+}
+
+.conteudo {
+    background-color: goldenrod;
+    padding: 10px;
+}

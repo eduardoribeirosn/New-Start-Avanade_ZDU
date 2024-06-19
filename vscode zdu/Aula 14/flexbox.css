@@ -1,0 +1,22 @@
+.container {
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        background-color: steelblue;
+        flex-direction: column;
+    }
+}
+
+.container div {
+    background-color: darkblue;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+}

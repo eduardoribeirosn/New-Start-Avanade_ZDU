@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.cabecalho {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
+.menu {
+    background-color: rgb(55, 88, 148);
+    text-align: center;
+    padding: 10px;
+}
+.menu a{
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+.col1 {
+    width: 50%;
+    float: left;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

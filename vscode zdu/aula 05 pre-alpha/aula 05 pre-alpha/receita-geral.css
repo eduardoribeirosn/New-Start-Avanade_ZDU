@@ -1,0 +1,106 @@
+:root {
+    --familia-fonte: 'Arial', sans-serif;
+    --cor-branca: #ffffff;
+    --cor-ouro: #ffd700;
+    --imagem-fundo: url(imagens-henri/thumb-1920-1313942.png);
+    --largura-maxima: 1200px;
+    --largura-container: 90%;
+    --largura-maxima-img: 500px;
+    --espacamento: 20px;
+    --duracao-transicao: 0.3s;
+    --cor-fundo-semitransparente: rgba(0, 0, 0, 0.6);
+    /* Adicionada variável para a cor de fundo semitransparente */
+}
+
+body {
+    font-family: var(--familia-fonte);
+    color: var(--cor-branca);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: var(--imagem-fundo);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: var(--largura-container);
+    max-width: var(--largura-maxima);
+    margin: auto;
+    text-align: center;
+    background-color: var(--cor-fundo-semitransparente);
+    /* Usando a variável para a cor de fundo */
+    padding: var(--espacamento);
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+img {
+    width: 100%;
+    max-width: var(--largura-maxima-img);
+    display: block;
+    margin: var(--espacamento) auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: var(--espacamento) 0;
+    font-family: var(--familia-fonte);
+    color: var(--cor-branca);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+li {
+    margin: var(--espacamento) 0;
+}
+
+a {
+    color: var(--cor-ouro);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color var(--duracao-transicao), text-decoration var(--duracao-transicao);
+}
+
+a:hover,
+a:focus {
+    color: var(--cor-branca);
+    text-decoration: underline;
+    outline: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container,
+    footer {
+        width: 95%;
+        padding: var(--espacamento) 10px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}

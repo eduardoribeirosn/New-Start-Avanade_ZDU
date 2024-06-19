@@ -1,0 +1,27 @@
+header {
+    background-color: rgb(255, 115, 0);
+}
+
+
+img {
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+}
+body {
+    background-color: rgb(255, 123, 0);
+}
+body {
+    text-align: center;
+}
+.texto1 {
+    width: 400px;
+    margin: auto;
+}
+a {
+    padding: 10px 30px;
+    background-color: rgb(175, 83, 7);
+    border-radius: 999px;
+    color: white;
+    text-decoration: none;
+}

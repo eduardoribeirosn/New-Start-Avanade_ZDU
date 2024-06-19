@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.corner {
+    position: absolute;
+    padding: 10px;
+}
+
+.n1 {
+    top: 0;
+    left: 0;
+}
+
+.n2 {
+    top: 0;
+    right: 0;
+}
+
+.n3 {
+    bottom: 0;
+    left: 0;
+}
+
+.n4 {
+    bottom: 0;
+    right: 0;
+}

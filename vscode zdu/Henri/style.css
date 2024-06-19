@@ -1,0 +1,50 @@
+:root {
+    --botaov: rgb(11, 95, 11);
+}
+
+body {
+    background-color: orange;
+}
+
+.fundo {
+    width: 412px;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    display: block;
+    border-radius: 999px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.a1 {
+    background-color: var(--botaov);
+}
+
+.a2 {
+    background-color: white;
+    color: var(--botaov);
+}
+
+.a3 {
+    background-color: red;
+}
+
+.a4 {
+    background-color: var(--botaov);
+}
+
+footer {
+    background-color: hsl(0, 100%, 50%);
+}
