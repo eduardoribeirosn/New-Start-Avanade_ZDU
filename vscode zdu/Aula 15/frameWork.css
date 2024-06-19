@@ -1,0 +1,28 @@
+body {
+    background-image: url(img/fundo-aula-15.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+.coluninha {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 15px;
+}
+
+.colunics {
+    border-radius: 15px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
