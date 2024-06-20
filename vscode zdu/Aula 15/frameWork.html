@@ -12,9 +12,9 @@
 
 <body>
     <!---->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand"><img src="img/smiley-3058590_1280.jpg" alt="Logo" width="80"></a>
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid bg-info">
+            <a class="navbar-brand"><img src="img/animes.jpg" alt="Logo" width="80"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -81,34 +81,36 @@
     <div class="container" id="personagens">
         <h1 class="text-center p-5 mb-5 mt-5">Personagens</h1>
 
+        <div class="d-flex justify-content-around">
 
-        <div class="card" style="width: 18rem; display: inline-block; margin-right: 110px;">
-            <img src="img/moruiokocho.jfif" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Satoru Gojo</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card" style="width: 18rem;">
+                <img src="img/moruiokocho.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Satoru Gojo</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-        </div>
 
-        <div class="card" style="width: 18rem; display: inline-block; margin-right: 110px;">
-            <img src="img/saskinho.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Sasuke Uchiha</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card" style="width: 18rem;">
+                <img src="img/saskinho.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sasuke Uchiha</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-        </div>
 
-        <div class="card" style="width: 18rem; display: inline-block;">
-            <img src="img/kashi.jfif" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Kakashi Hatake</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card" style="width: 18rem;">
+                <img src="img/kashi.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Kakashi Hatake</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
     </div>
@@ -152,7 +154,7 @@
 
         <!--Contatos-->
         <h2 id="contato" class="fs-1 p-5 mb-5 mt-5 text-center">Contate-nos</h2>
-        <div class="bg-dark-subtle p-5 mg-5">
+        <div class="bg-white bg-opacity-50 p-5 m-5 rounded-5">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ipsum nisi eligendi odio! Asperiores quia,
                 dicta officia quod voluptates esse et accusantium laudantium illo quidem quibusdam vel eaque laborum
                 dolore
@@ -166,6 +168,37 @@
                 cupiditate? Aut tempora, veritatis laborum sapiente blanditiis a ab quos quisquam iste reprehenderit?
             </p>
         </div>
+    </div>
+    <!--Fomulário de Agendamento-->
+    <div class="container bg-secondary bg-opacity-50 mb-5 p-5 rounded-5" id="contatos">
+        <h2 class="text-center mb-3">Agende uma conversa</h2>
+        <form>
+            <div class="mb-3 form-floating">
+                <input type="text" name="cliente-nome" id="cliente-nome" placeholder="" class="form-control bg-opacity-" required>
+                <label for="cliente-nome" class="form-label">Nome do Cliente</label>
+            </div>
+            <div class="mb-3 form-floating">
+                <input type="email" name="cliente-email" id="cliente-email" placeholder="" class="form-control"
+                    required>
+                <label for="cliente-email" class="form-label">Email do Cliente:</label>
+            </div>
+            <div class="mb-3 form-floating">
+                <input type="tel" name="telefone" id="telefone" placeholder="" class="form-control" required>
+                <label for="telefone" class="form-label">Telefone do Cliente:</label>
+            </div>
+            <div class="mb-3 form-floating">
+                <input type="number" name="id-vendedor" id="id-vendedor" placeholder="" class="form-control" required>
+                <label for="id-vendedor" class="form-label">id do Vendedor</label>
+            </div>
+            <div class="mb-3 form-floating">
+                <input type="datetime-local" name="data-hora" id="data-hora" placeholder="" class="form-control"
+                    required>
+                <label for="data-hora" class="form-label">Data e hora</label>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-primary">Agendar</button>
+            </div>
+        </form>
     </div>
 
     <footer>

@@ -25,3 +25,8 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+.nav-item a:hover {
+    transition: 0,3;
+    transform: scale(1.3);
+}
