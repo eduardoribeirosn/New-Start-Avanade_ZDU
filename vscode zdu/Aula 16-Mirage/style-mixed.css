@@ -1,0 +1,148 @@
+body {
+    background-color: #343a40;
+    color: #ffffff;
+    animation: fadeIn 2s ease-out;
+}
+
+.navbar {
+    background-color: #212529;
+    animation: fadeInDown 1s ease-out;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107;
+    animation: bounce 0.3s;
+}
+
+.card {
+    background-color: #212529;
+    border: 1px solid #495057;
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: fadeIn 2s ease-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card .btn-primary,
+.card .btn-success,
+.card .btn-danger {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.card .btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+}
+
+.card .btn-success:hover {
+    background-color: #218838;
+    transform: translateY(-5px);
+}
+
+.card .btn-danger:hover {
+    background-color: #c82333;
+    transform: translateY(-5px);
+}
+
+footer {
+    background-color: #212529;
+    animation: fadeIn 2s ease-out;
+}
+
+.drop-cor:hover {
+    background-color: rgba(240, 156, 79, 0.87) !important;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    from, 20%, 53%, 80%, to {
+        transform: translateY(0);
+    }
+    40%, 43% {
+        transform: translateY(-10px);
+    }
+    70% {
+        transform: translateY(-5px);
+    }
+    90% {
+        transform: translateY(-2px);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-out;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+
+.nav-item {
+    animation: slideInLeft 1s ease-out;
+}
+
+.card-title {
+    animation: slideInRight 1s ease-out;
+}
+
+.card-text {
+    animation: fadeIn 2s ease-out;
+}
+
+.card .btn {
+    animation: pulse 1.5s infinite alternate;
+}
