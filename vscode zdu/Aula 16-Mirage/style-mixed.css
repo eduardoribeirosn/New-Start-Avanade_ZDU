@@ -58,7 +58,8 @@ footer {
 }
 
 .drop-cor:hover {
-    background-color: rgba(240, 156, 79, 0.87) !important;
+    background-color: rgb(231, 113, 59) !important;
+    color: #212529 !important;
 }
 
 @keyframes fadeInDown {
@@ -145,4 +146,8 @@ footer {
 
 .card .btn {
     animation: pulse 1.5s infinite alternate;
+}
+
+.sobre-link {
+    background-color: #212529 !important;
 }
