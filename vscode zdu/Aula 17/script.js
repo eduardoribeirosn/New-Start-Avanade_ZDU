@@ -7,8 +7,10 @@ function sortearNumero() {
         resultadoDiv.textContent = "Por favor, insira um intervalo valido."   
         resultadoDiv.style.color = "red"
     } else {
-        const numeroSorteado = Math.floor(Math.random() * (max - min + 1) + min)
+        let save = Math.random()
+        const numeroSorteado = Math.floor(save * (max - min + 1) + min)
         resultadoDiv.textContent = `Número sorteado: ${numeroSorteado}`
         resultadoDiv.style.color = "green"
+        console.log(save)
     }
 }
