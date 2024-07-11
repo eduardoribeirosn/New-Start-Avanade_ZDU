@@ -1,0 +1,266 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: url('reze.png') no-repeat center center fixed;
+    background-size: cover;
+    color: darkviolet;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #2c3e50;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 10px 0;
+    color: cornflowerblue;
+}
+
+h1 {
+    font-size: 2.5em;
+    animation: fadeInDown 1s ease-out;
+}
+
+h2 {
+    font-size: 2em;
+    animation: fadeInLeft 1s ease-out;
+}
+
+h3 {
+    font-size: 1.5em;
+    animation: fadeInRight 1s ease-out;
+}
+
+p {
+    line-height: 1.6;
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes buttonHover {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+button {
+    background-color: #16a085;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #1abc9c;
+    animation: buttonHover 0.3s forwards;
+}
+
+header {
+    background-color: rgba(44, 62, 80, 0.8);
+    color: honeydew;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.hero-banner {
+    background: url('cenario.png') no-repeat center center/cover;
+    color: honeydew;
+    text-align: center;
+    padding: 60px 20px;
+    animation: fadeIn 2s ease-out;
+    margin-top: 140px;
+}
+
+.hero-banner h2 {
+    font-size: 2.5em;
+    animation: fadeInDown 1s ease-out;
+}
+
+.hero-banner p {
+    font-size: 1.2em;
+    animation: fadeInUp 1s ease-out;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-out;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-out;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card li {
+    margin: 10px 0;
+}
+
+.card li strong {
+    color: #16a085;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    animation: fadeIn 2s ease-out;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    color: cornflowerblue;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: plum;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    animation: fadeIn 2s ease-out;
+}
+
+.footer-social a {
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.footer-social a:hover {
+    transform: scale(1.2);
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    background-color: rgba(44, 57, 80, 0.9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 2s ease-out;
+}
+
+footer p {
+    margin: 10px 0;
+}
