@@ -2,7 +2,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background: url('reze.png') no-repeat center center fixed;
+    background: url('img/reze.png') no-repeat center center fixed;
     background-size: cover;
     color: darkviolet;
     transition: background-color 0.3s, color 0.3s;
@@ -147,7 +147,7 @@ header {
 }
 
 .hero-banner {
-    background: url('cenario.png') no-repeat center center/cover;
+    background: url('img/cenario.png') no-repeat center center/cover;
     color: honeydew;
     text-align: center;
     padding: 60px 20px;

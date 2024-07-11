@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body {
+    background: turquoise;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+input {
+    padding: 20px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 9999px;
+    
+}
+
+.main{
+    display: inline-block;
+}
+
+.maincolor{
+    background-color:aquamarine
+}
+
+.num{
+    width: 60px;
+    height: 70;
+    margin: 5px;
+}
+
+.text01{
+    width: 100%;
+}
+.text02{
+    width: 24px;
+    height: 25px;
+    border-radius: 100px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.beige{
+    background-color: beige;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.green{
+    background-color: green;
+}
+
+.white{
+    background-color: white;
+}
+
+.turquoise{
+    background-color: turquoise;
+}
