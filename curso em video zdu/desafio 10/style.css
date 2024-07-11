@@ -1,0 +1,136 @@
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    position: absolute;
+}
+
+header {
+    background: linear-gradient(180deg, #3DDA84, #268551, #195534);
+    color: white;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+h2, h3 {
+    font-family: android;
+    color: #1A5C38;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    background: linear-gradient(to right, #C5EBD5, white);
+}
+
+main {
+    background-color: white;
+    width: 64%;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+span {
+    color: #3B7353;
+}
+
+.mascotinho {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    background-color: #1A5C38;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 0 -20px;
+}
+
+article {
+    border-radius: 15px;
+    background-color: #C5EBD6;
+    margin: 10px;
+    padding: 10px;
+}
+
+aside {
+    border-radius: 15px 15px 0 0;
+    background-color: #2FA866;
+    padding: 10px;
+    margin: -10px -10px 0 -10px;
+    color: white;
+}
+
+ul {
+    display: inline-block;
+    margin-right: 130px;
+    list-style-type: symbols();
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+h4 {
+    margin: 0;
+}
+
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    margin-top: 10px;
+    
+    bottom: 0px;
+}
+
+.foot-bold {
+    font-weight: bold;
+    color: white;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+}
+
+span a {
+    color: #3B7353;
+    text-decoration: none;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
+
