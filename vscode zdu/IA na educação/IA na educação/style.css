@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+header button {
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.hero-banner {
+    background-image: url('hero-banner.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 4em 2em;
+}
+
+.hero-banner button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+section {
+    padding: 2em;
+}
+
+.benefits, .accessibility, .data-analysis {
+    background-color: #f9f9f9;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    color: #4CAF50;
+}
+
+button {
+    display: block;
+    margin: 2em auto;
+    padding: 1em 2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.footer-links, .footer-social {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.footer-links a, .footer-social a {
+    color: #4CAF50;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
