@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-zdu.css"/>
+    <title>Calculadora</title>
+
+</head>
+
+<body>
+    <div class="main">
+        <form action="" name="Calculadora">
+
+            <input type="text" class="text01" name="text01" id="result" disabled>
+
+            <br>
+
+            <input type="button" class="limpar" name="text02" value="C" onclick="limpar()">
+            <input type="button" class="limpar" name="btn00" value="⬅" onclick="backspace()" style="font-size: medium;">
+            
+            <input type="button" class="ope" name="porcent" value="%" onclick="displaynum(porcent.value)">
+            <input type="button" class="ope" name="divisao" value="/" onclick="displaynum(divisao.value)">
+
+            <br>
+
+            <input type="button" class="num" name="btn7" value="7" onclick="displaynum(btn7.value)">
+            <input type="button" class="num" name="btn8" value="8" onclick="displaynum(btn8.value)">
+            <input type="button" class="num" name="btn9" value="9" onclick="displaynum(btn9.value)">
+            <input type="button" class="ope green" name="multp" value="*" onclick="displaynum(multp.value)">
+            <br>
+
+            <input type="button" class="num" name="btn4" value="4" onclick="displaynum(btn4.value)">
+            <input type="button" class="num" name="btn5" value="5" onclick="displaynum(btn5.value)">
+            <input type="button" class="num" name="btn6" value="6" onclick="displaynum(btn6.value)">
+            <input type="button" class="ope pink" name="subt" value="-" onclick="displaynum(subt.value)"><br>
+
+            <input type="button" class="num" name="btn1" value="1" onclick="displaynum(btn1.value)">
+            <input type="button" class="num" name="btn2" value="2" onclick="displaynum(btn2.value)">
+            <input type="button" class="num" name="btn3" value="3" onclick="displaynum(btn3.value)">
+            <input type="button" class="ope" name="adicao" value="+" onclick="displaynum(adicao.value)">
+            <br>
+
+            <input type="button" class="num" name="parent1" id="parent" value="(" onclick="parents(parent1.value)">
+            <input type="button" class="num" name="btn0" value="0" onclick="displaynum(btn0.value)">
+            <input type="button" class="num" name="dot" value="." onclick="displaynum(dot.value)">
+            <input type="button" class="igual" name="igual" value="=" onclick="text01.value=eval(text01.value)">
+            <br>
+
+            <!-- <input type="button" class="num maincolor" name="parent2" value=")" onclick="displaynum(parent2.value)"> -->
+            
+            <br>
+        
+        </form>
+    
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
