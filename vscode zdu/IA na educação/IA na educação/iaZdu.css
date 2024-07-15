@@ -1,0 +1,84 @@
+:root {
+    --cor0: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #005C53;
+    height: 300px;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 60px;
+    color: #DBF227;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.295);
+}
+
+header p {
+    margin-top: 45px;
+    max-width: 900px;
+    margin: 45px auto 0 auto;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-shadow: 2px 3px 5px rgba(255, 255, 255, 0.151);
+}
+
+header button, button{
+    margin-top: 25px;
+    background-color: #9FC131;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    color: #042940;
+}
+
+header button:hover, button:hover {
+    background-color: #042940;
+    color: white;
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+main {
+    background-color: gray;
+    width: 90%;
+    margin: auto;
+}
+
+.sec-one {
+    background-color: lightsalmon;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+.sec-one p {
+    margin-top: 20px;
+}
+
+.sec-two .cards1{
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.sec-two {
+    text-align: center;
+}
+
+.sec-two h2 {
+    margin: 60px;
+}
+
+.card {
+    background-color: rgb(98, 195, 228);
+    width: 300px;
+    height: 500px;
+}
